@@ -1,0 +1,21 @@
+{
+	"author": "guberni",
+	"name": "tellki-dns-monitor",
+	"description": "Tellki DNS monitor",
+	"version": "0.0.1",
+	"keywords": ["tellki","monitor","dns", "real time"],
+	"homepage": "www.tellki.com",
+	"repository" : { 
+		"type" : "git", "url" : "https://github.com/tellkiApp/tellkiAgent_DNS.git"  
+	},
+	"main": "./lib/dns_monitor",
+	"bin": {
+		"tellki-dns-monitor": "./bin/tellki-dns-monitor"
+	},
+	"dependencies": {
+        "native-dns": "~0.7.0"
+	},
+	"engines": {
+		"node": "*"
+	}
+}
