@@ -2,7 +2,7 @@
 	"author": "guberni",
 	"name": "tellki-dns-monitor",
 	"description": "Tellki DNS monitor",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"keywords": ["tellki","monitor","dns", "real time"],
 	"homepage": "www.tellki.com",
 	"repository" : { 
